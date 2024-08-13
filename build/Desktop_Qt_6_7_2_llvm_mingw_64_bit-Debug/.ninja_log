@@ -1,9 +1,9 @@
 # ninja log v6
-9	880	7452352506630949	TFF_autogen/timestamp	844c6fab9a1799cb
-9	880	7452352506630949	TFF_autogen/mocs_compilation.cpp	844c6fab9a1799cb
-9	880	7452352506630949	C:/Users/Arif/Documents/TFF/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/TFF_autogen/timestamp	844c6fab9a1799cb
-9	880	7452352506630949	C:/Users/Arif/Documents/TFF/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/TFF_autogen/mocs_compilation.cpp	844c6fab9a1799cb
-888	3320	7452352507557255	CMakeFiles/TFF.dir/TFF_autogen/mocs_compilation.cpp.obj	b959f9395e77bf44
-30	38	7452361067713836	clean	577b940aee94fbd7
-891	3448	7452352507557255	CMakeFiles/TFF.dir/main.cpp.obj	27dd9bc32b968dd0
-10	30	7452361067400728	CMakeFiles/clean.additional	baedbe210acaa455
+13	1843	7452483545157729	ders_autogen/timestamp	a08740a929981ba
+13	1843	7452483545157729	ders_autogen/mocs_compilation.cpp	a08740a929981ba
+13	1843	7452483545157729	C:/Users/Arif/Documents/ders/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/ders_autogen/timestamp	a08740a929981ba
+13	1843	7452483545157729	C:/Users/Arif/Documents/ders/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/ders_autogen/mocs_compilation.cpp	a08740a929981ba
+1864	6052	7452483547389431	CMakeFiles/ders.dir/main.cpp.obj	db217b44648d2d70
+1870	6070	7452483547450089	CMakeFiles/ders.dir/mainwindow.cpp.obj	306524da3584011e
+1857	6084	7452483547329459	CMakeFiles/ders.dir/ders_autogen/mocs_compilation.cpp.obj	def707c6d1666bda
+6084	6280	7452483589593883	ders.exe	2469a35e7db6f402

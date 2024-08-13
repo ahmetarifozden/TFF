@@ -1,0 +1,6 @@
+Ad: Ahmet 
+Yaş: 23
+Müsabaka Adı: galatasaray
+Tribün Adı: deplasman
+Koltuk No: 56
+Kapı No: a7
