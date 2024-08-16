@@ -57,7 +57,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(417, 283);
+        MainWindow->resize(472, 287);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         layoutWidget = new QWidget(centralwidget);
@@ -148,7 +148,7 @@ public:
 
         layoutWidget1 = new QWidget(centralwidget);
         layoutWidget1->setObjectName("layoutWidget1");
-        layoutWidget1->setGeometry(QRect(220, 20, 151, 171));
+        layoutWidget1->setGeometry(QRect(220, 30, 151, 171));
         verticalLayout_2 = new QVBoxLayout(layoutWidget1);
         verticalLayout_2->setObjectName("verticalLayout_2");
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
@@ -165,7 +165,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 417, 18));
+        menubar->setGeometry(QRect(0, 0, 472, 18));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");

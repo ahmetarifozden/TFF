@@ -19,9 +19,9 @@ public:
 
 private slots:
     void on_pushButtonSelectImage_clicked();
-    void on_pushButtonSaveImage_clicked();
+    //void on_pushButtonSaveImage_clicked();
     // void on_pushButtonYukle_clicked();
-    //void on_pushButtonKaydet_clicked();
+    void on_pushButtonKaydet_clicked();
 
 private:
     Ui::MainWindow *ui;
