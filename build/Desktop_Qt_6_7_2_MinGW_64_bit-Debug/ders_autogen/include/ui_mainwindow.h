@@ -32,9 +32,9 @@ public:
     QVBoxLayout *verticalLayout;
     QFormLayout *formLayout;
     QLabel *label;
-    QLineEdit *TcNo;
+    QLineEdit *lineEditTC;
     QLabel *label_2;
-    QLineEdit *AdSoyad;
+    QLineEdit *lineEditName;
     QLabel *label_3;
     QSpinBox *Yas;
     QLabel *label_4;
@@ -45,7 +45,9 @@ public:
     QLineEdit *KoltukNo;
     QLabel *label_7;
     QLineEdit *KapiNo;
-    QPushButton *TxtKaydet;
+    QLabel *label_8;
+    QLineEdit *lineEditApiUrl;
+    QPushButton *pushButtonKaydet;
     QWidget *layoutWidget1;
     QVBoxLayout *verticalLayout_2;
     QLabel *labelImage;
@@ -62,7 +64,7 @@ public:
         centralwidget->setObjectName("centralwidget");
         layoutWidget = new QWidget(centralwidget);
         layoutWidget->setObjectName("layoutWidget");
-        layoutWidget->setGeometry(QRect(30, 20, 168, 191));
+        layoutWidget->setGeometry(QRect(30, 20, 168, 211));
         verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -73,20 +75,20 @@ public:
 
         formLayout->setWidget(0, QFormLayout::LabelRole, label);
 
-        TcNo = new QLineEdit(layoutWidget);
-        TcNo->setObjectName("TcNo");
+        lineEditTC = new QLineEdit(layoutWidget);
+        lineEditTC->setObjectName("lineEditTC");
 
-        formLayout->setWidget(0, QFormLayout::FieldRole, TcNo);
+        formLayout->setWidget(0, QFormLayout::FieldRole, lineEditTC);
 
         label_2 = new QLabel(layoutWidget);
         label_2->setObjectName("label_2");
 
         formLayout->setWidget(1, QFormLayout::LabelRole, label_2);
 
-        AdSoyad = new QLineEdit(layoutWidget);
-        AdSoyad->setObjectName("AdSoyad");
+        lineEditName = new QLineEdit(layoutWidget);
+        lineEditName->setObjectName("lineEditName");
 
-        formLayout->setWidget(1, QFormLayout::FieldRole, AdSoyad);
+        formLayout->setWidget(1, QFormLayout::FieldRole, lineEditName);
 
         label_3 = new QLabel(layoutWidget);
         label_3->setObjectName("label_3");
@@ -138,13 +140,23 @@ public:
 
         formLayout->setWidget(6, QFormLayout::FieldRole, KapiNo);
 
+        label_8 = new QLabel(layoutWidget);
+        label_8->setObjectName("label_8");
+
+        formLayout->setWidget(7, QFormLayout::LabelRole, label_8);
+
+        lineEditApiUrl = new QLineEdit(layoutWidget);
+        lineEditApiUrl->setObjectName("lineEditApiUrl");
+
+        formLayout->setWidget(7, QFormLayout::FieldRole, lineEditApiUrl);
+
 
         verticalLayout->addLayout(formLayout);
 
-        TxtKaydet = new QPushButton(layoutWidget);
-        TxtKaydet->setObjectName("TxtKaydet");
+        pushButtonKaydet = new QPushButton(layoutWidget);
+        pushButtonKaydet->setObjectName("pushButtonKaydet");
 
-        verticalLayout->addWidget(TxtKaydet);
+        verticalLayout->addWidget(pushButtonKaydet);
 
         layoutWidget1 = new QWidget(centralwidget);
         layoutWidget1->setObjectName("layoutWidget1");
@@ -186,7 +198,8 @@ public:
         label_5->setText(QCoreApplication::translate("MainWindow", "Trib\303\274n Ad\304\261", nullptr));
         label_6->setText(QCoreApplication::translate("MainWindow", "Koltuk No", nullptr));
         label_7->setText(QCoreApplication::translate("MainWindow", "Kap\304\261 No", nullptr));
-        TxtKaydet->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
+        label_8->setText(QCoreApplication::translate("MainWindow", "API", nullptr));
+        pushButtonKaydet->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
         labelImage->setText(QCoreApplication::translate("MainWindow", "                     Foto\304\237raf", nullptr));
         pushButtonSelectImage->setText(QCoreApplication::translate("MainWindow", "Foto\304\237raf Y\303\274kle", nullptr));
     } // retranslateUi

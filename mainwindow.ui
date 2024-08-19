@@ -20,7 +20,7 @@
       <x>30</x>
       <y>20</y>
       <width>168</width>
-      <height>191</height>
+      <height>211</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -34,7 +34,7 @@
         </widget>
        </item>
        <item row="0" column="1">
-        <widget class="QLineEdit" name="TcNo"/>
+        <widget class="QLineEdit" name="lineEditTC"/>
        </item>
        <item row="1" column="0">
         <widget class="QLabel" name="label_2">
@@ -44,7 +44,7 @@
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QLineEdit" name="AdSoyad"/>
+        <widget class="QLineEdit" name="lineEditName"/>
        </item>
        <item row="2" column="0">
         <widget class="QLabel" name="label_3">
@@ -96,10 +96,20 @@
        <item row="6" column="1">
         <widget class="QLineEdit" name="KapiNo"/>
        </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>API</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QLineEdit" name="lineEditApiUrl"/>
+       </item>
       </layout>
      </item>
      <item>
-      <widget class="QPushButton" name="TxtKaydet">
+      <widget class="QPushButton" name="pushButtonKaydet">
        <property name="text">
         <string>PushButton</string>
        </property>

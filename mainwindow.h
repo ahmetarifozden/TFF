@@ -2,11 +2,20 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QNetworkAccessManager>
+#include <QNetworkReply>
+#include <QNetworkRequest>
+#include <QFile>
+#include <QFileDialog>
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QJsonArray>
 #include <QImage>
-
+#include <QImageWriter>
+#include <QBuffer>
 
 QT_BEGIN_NAMESPACE
-namespace Ui {class MainWindow;}
+namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
@@ -19,13 +28,15 @@ public:
 
 private slots:
     void on_pushButtonSelectImage_clicked();
-    //void on_pushButtonSaveImage_clicked();
-    // void on_pushButtonYukle_clicked();
-    void on_pushButtonKaydet_clicked();
+    void on_pushButtonSubmit_clicked();
+    void on_networkReplyFinished(QNetworkReply* reply);
 
 private:
     Ui::MainWindow *ui;
+    QNetworkAccessManager *networkManager;
     QString selectedImagePath;
-    //void displayImage(const QString &filePath);
+
+    void sendDataToApi();
 };
+
 #endif // MAINWINDOW_H
