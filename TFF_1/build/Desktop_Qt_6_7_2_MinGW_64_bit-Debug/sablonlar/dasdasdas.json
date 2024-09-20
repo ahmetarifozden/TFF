@@ -1,0 +1,16 @@
+{
+    "fields": [
+        {
+            "name": "asdasda",
+            "type": "String"
+        },
+        {
+            "name": "sdas",
+            "type": "String"
+        },
+        {
+            "name": "sdasda",
+            "type": "String"
+        }
+    ]
+}
