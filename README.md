@@ -41,5 +41,5 @@ Bu projeyi kullanmadan önce aşağıdaki bileşenlerin yüklü olduğundan emin
 
 Projeyi klonlayarak başlayın:
 ```bash
-git clone https://github.com/kullanici_adiniz/tff-e-bilet-simulator.git
+git clone https://github.com/ahmetarifozden/TFF
 cd tff-e-bilet-simulator
