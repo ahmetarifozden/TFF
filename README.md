@@ -36,6 +36,10 @@ Bu projeyi kullanmadan önce aşağıdaki bileşenlerin yüklü olduğundan emin
 - Bir RESTful API ile iletişim için internet bağlantısı
 - C++
 
+### Katkıda Bulunanlar
+
+- **Proje Sahibi**: [Netas]
+
 ### Kurulum
 
 Projeyi klonlayarak başlayın:
@@ -43,6 +47,4 @@ Projeyi klonlayarak başlayın:
 git clone https://github.com/ahmetarifozden/TFF
 cd TFF
 
-### Katkıda Bulunanlar
 
-- **Proje Sahibi**: [Netas]
