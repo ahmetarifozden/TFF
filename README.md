@@ -43,6 +43,6 @@ Projeyi klonlayarak başlayın:
 git clone https://github.com/ahmetarifozden/TFF
 cd TFF
 
-## Katkıda Bulunanlar
+### Katkıda Bulunanlar
 
 - **Proje Sahibi**: [Netas]
