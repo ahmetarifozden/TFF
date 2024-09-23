@@ -36,9 +36,6 @@ Bu projeyi kullanmadan önce aşağıdaki bileşenlerin yüklü olduğundan emin
 - Bir RESTful API ile iletişim için internet bağlantısı
 - C++
 
-### Katkıda Bulunanlar
-
-- **Proje Sahibi**: [Netas]
 
 ### Kurulum
 
