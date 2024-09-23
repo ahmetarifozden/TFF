@@ -35,7 +35,6 @@ Bu projeyi kullanmadan önce aşağıdaki bileşenlerin yüklü olduğundan emin
 - Qt ile ilgili kütüphaneler
 - Bir RESTful API ile iletişim için internet bağlantısı
 - C++
-- Design Patterns (OOP)
 
 ### Kurulum
 
