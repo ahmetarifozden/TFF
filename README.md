@@ -36,6 +36,14 @@ Bu projeyi kullanmadan önce aşağıdaki bileşenlerin yüklü olduğundan emin
 - Bir RESTful API ile iletişim için internet bağlantısı
 - C++
 
+## Kazanımlarım
+
+- **Qt ve C++ kullanarak arayüz tasarımı ve uygulama geliştirme.**
+- **JSON formatında veri işleme ve API entegrasyonu.**
+- **Signal-Slot mekanizması ile arayüzler ve fonksiyonlar arasında etkili iletişim sağlama.**
+- **Singleton, Factory, Observer gibi tasarım desenlerini uygulama.**
+- **Hata yönetimi ve Exception Handling teknikleri kullanarak stabil ve güvenilir kod yazma.**
+- **Node.js kullanarak sunucu oluşturma ve HTTP isteklerini işleme.**
 
 ### Kurulum
 
@@ -43,5 +51,7 @@ Projeyi klonlayarak başlayın:
 ```bash
 git clone https://github.com/ahmetarifozden/TFF
 cd TFF
+
+
 
 
