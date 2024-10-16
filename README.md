@@ -4,7 +4,7 @@ Bu proje, Türkiye Futbol Federasyonu'na (TFF) sunulan e-bilet sisteminin bir si
 
 ## Proje Aşamaları
 
-TFF E-Bilet Simulator projesi üç aşamada geliştirilmiştir:
+TFF E-Bilet Simulator projesi üç aşamada geliştirilmiştir: Son kısımda bütün sistem tek bir sistemde birleştirilmiştir(TFF_1).
 
 ### 1. Aşama: Temel Kullanıcı Veri Girişi
 İlk aşamada, kullanıcılar isim, TC kimlik numarası, yaş, takım ve resim gibi bilgileri girerek bu verileri **JSON** formatında bir **API** adresine gönderebilirler. Bu aşama, manuel veri girişine dayanır ve temel bir e-bilet simülasyonunu içerir.
