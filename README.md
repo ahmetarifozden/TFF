@@ -16,7 +16,7 @@ TFF E-Bilet Simulator projesi üç aşamada geliştirilmiştir: Son kısımda b�
 Son aşamada, proje aşağıdaki ekranlarla genişletildi:
 - **Kullanıcı Giriş Ekranı**: Kullanıcılar, var olan şablonları seçerek veya yeni veriler girerek giriş yapabilir.
 - **Şablon Ekranı**: Kullanıcılar, farklı veri tiplerini (ör. `int`, `string`, `image`) içeren kendi şablonlarını oluşturabilir. Şablonlar kaydedilebilir ve tekrar kullanılabilir.
-- **Ayarlar Ekranı**: Kullanıcılar, veri göndermek için kullanılan **API** sunucu adresini ayarlayabilir.
+- **Ayarlar Ekranı**: Kullanıcılar, veri göndermek için kullanılan **IP** sunucu adresini ayarlayabilir.
 - **Logger Ekranı**: Sistem tarafından yapılan tüm işlemler burada görüntülenir.
 
 ## Özellikler
