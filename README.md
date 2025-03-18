@@ -22,7 +22,7 @@ Son aşamada, proje aşağıdaki ekranlarla genişletildi:
 ## Özellikler
 
 - **JSON Formatında Veri Gönderimi**: E-Bilet sistemi için gerekli olan tüm kullanıcı verileri JSON formatına dönüştürülerek API'ye gönderilir.
-- **Rastgele Veri Üretimi**: Test senaryoları için simülatör, rastgele kullanıcı bilgileri oluşturarak bu bilgileri API'ye iletir.
+- **Rastgele Veri Üretimi**: Test senaryoları için simülatör, rastgele kullanıcı bilgileri oluşturarak bu bilgileri IP'ye iletir.
 - **Şablon Yönetimi**: Kullanıcılar, çeşitli şablonlar oluşturarak belirli veri türlerini otomatik olarak tekrar kullanabilirler.
 - **Ayarlar Yönetimi**: IP sunucu adresi ayarlanabilir ve her veri gönderiminde bu adres kullanılır.
 - **Logger Ekranı**: Tüm işlemler (veri gönderimi, API bağlantısı, hata durumları vb.) kaydedilir ve görüntülenir.
