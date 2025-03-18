@@ -1,13 +1,13 @@
 # TFF E-Bilet Simulator Projesi
 
-Bu proje, Türkiye Futbol Federasyonu'na (TFF) sunulan e-bilet sisteminin bir simülasyonunu gerçekleştirir. Kullanıcılar, çeşitli verileri (isim, TC kimlik numarası, yaş, takım, müsabaka bilgisi ve resim) JSON formatında bir API'ye gönderir. Proje, e-bilet sürecini simüle ederek, biletleme sisteminin doğru çalıştığını test etmeyi amaçlar.
+Bu proje, Türkiye Futbol Federasyonu'na (TFF) sunulan e-bilet sisteminin bir simülasyonunu gerçekleştirir. Kullanıcılar, çeşitli verileri (isim, TC kimlik numarası, yaş, takım, müsabaka bilgisi ve resim) JSON formatında bir IP'ye gönderir. Proje, e-bilet sürecini simüle ederek, biletleme sisteminin doğru çalıştığını test etmeyi amaçlar.
 
 ## Proje Aşamaları
 
 TFF E-Bilet Simulator projesi üç aşamada geliştirilmiştir: Son kısımda bütün aşamalar tek bir sistemde birleştirilmiştir(TFF_1).
 
 ### 1. Aşama: Temel Kullanıcı Veri Girişi
-İlk aşamada, kullanıcılar isim, TC kimlik numarası, yaş, takım ve resim gibi bilgileri girerek bu verileri **JSON** formatında bir **API** adresine gönderebilirler. Bu aşama, manuel veri girişine dayanır ve temel bir e-bilet simülasyonunu içerir.
+İlk aşamada, kullanıcılar isim, TC kimlik numarası, yaş, takım ve resim gibi bilgileri girerek bu verileri **JSON** formatında bir **IP** adresine gönderebilirler. Bu aşama, manuel veri girişine dayanır ve temel bir e-bilet simülasyonunu içerir.
 
 ### 2. Aşama: Rastgele Veri Üretimi ve Gönderimi
 İkinci aşamada, sistem rastgele veri üretme kapasitesi kazandı. Kullanıcıların verilerini elle girmek yerine, simülatör rastgele oluşturduğu kullanıcı bilgilerini API’ye otomatik olarak gönderebilir. Bu özellik, yüksek hacimli testler için kullanışlıdır.
